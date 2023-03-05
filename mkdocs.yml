@@ -1,0 +1,20 @@
+site_name: Curs Markdown Samuel Mascarell
+docs_dir: 'md'
+site_dir: 'docs'
+
+nav:
+    - Home: index.md
+    - Tema 1:
+      - Introducción: tema1/introduccion.md
+      - Inicio de sesión 1: tema1/inicio-GitHub1.md
+      - Inicio de sesión 2: tema1/inicio-GitHub2.md
+      - Publicación: tema1/publicación.md
+    - About: about.md
+
+#theme: readthedocs
+
+markdown_extensions:
+  - admonition
+
+
+
